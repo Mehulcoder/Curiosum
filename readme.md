@@ -4,7 +4,11 @@
 
 2. Make sure you have mongoDb and nodeJs installed and running on your local machine.
 
-3. Change the path of the terminal to the working directory "Curiosum", In the terminal type:
+3. Change the path of the terminal to the working directory "Curiosum"(which has the **app.js** file), In the terminal type:
+
+> npm install
+
+this will install al the required packages for the task. Then again in the terminal type:
 
 > node app.js
 
@@ -12,7 +16,7 @@
 
 > "Server has started".
 
-5. Now open a web browser.In the address bar, type:
+5. Now open a web browser. In the address bar, type:
 
 > localhost:3000
 
