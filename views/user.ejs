@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Fill in the user info
+        </title>
+    </head>
+
+    <body>
+        <h1>Enter user details</h1>
+        <form action="/info" method="POST">
+        <input type="text" name="User[name]" placeholder="Enter name" required>
+        <input type="text" name="User[email]" placeholder="Enter Email" required>
+        <input type="password" name="User[password]" placeholder="Enter password" required>
+        <input type="text" name="User[address]" placeholder="Enter address" required>
+        <input type="number" name="User[phone]" placeholder="Enter Phone Number" required>
+        <input type="text" name="User[birth]" placeholder="Enter DOB" required>
+        <button>Submit</button>
+
+        </form>
+        <p>
+        <a href="/show"> Show user info </a>
+        </p>
+        <p>
+        <a href="/">Go Home</a>
+        </p>
+    </body>
+</html>

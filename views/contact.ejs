@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Show the user info
+        </title>
+    </head>
+
+    <body>
+        <h1>Contacts and their details</h1>
+        <form action="/contacts" method="post">
+            <input type="text" name="Contact[name]" placeholder="Enter name" required>
+            <input type="text" name="Contact[email]" placeholder="Enter Email" required>
+            <!-- <input type="password" name="User[password]" placeholder="Enter password" required> -->
+            <!-- <input type="text" name="User[address]" placeholder="Enter address" required> -->
+            <input type="number" name="Contact[phone]" placeholder="Enter Phone Number" required>
+            <!-- <input type="text" name="User[birth]" placeholder="Enter DOB" required> -->
+            <button>Submit</button>
+        </form>
+        <p>
+            <a href="/">Go Home</a>
+        </p>
+
+    </body>
+</html>

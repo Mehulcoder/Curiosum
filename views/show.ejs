@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            Show the user info
+        </title>
+    </head>
+
+    <body>
+        <h1>Users and their information</h1>
+        <p>
+            <a href="/">Go Home</a>
+        </p>
+        <% users.forEach(function(user){ %>
+            <p>
+           Name: <%= user.name %>
+            </p>
+            <p>
+           Email: <%= user.email %> 
+            </p>
+            <p>
+            Address: <%= user.address %> 
+            </p>
+            <p>
+           Phone Number: <%= user.phone %> 
+            </p>
+            <p>
+           Birth Date: <%= user.birth %> 
+            </p>
+            <p>
+           Contact Count: <%= user.contacts.length %>
+            </p>
+            
+            <br>
+        <% }); %>
+
+    </body>
+</html>
