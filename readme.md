@@ -2,7 +2,7 @@
 
 1. Open the Curiosum folder in VScode or any other editor.
 
-2. Make sure you have mongoDb and nodeJs installed and running on your local machine.
+2. Make sure you have **mongoDb**, **npm** and **nodeJs** installed and running on your local machine.
 
 3. Change the path of the terminal to the working directory "Curiosum"(which has the **app.js** file), In the terminal type:
 
