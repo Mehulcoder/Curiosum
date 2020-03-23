@@ -24,13 +24,13 @@ this will install al the required packages for the task. Then again in the termi
 
 > localhost:3000
 
-7. Add users using the add users link. I've made sure that the added Email and phone number are unique everytime. And the email is added in right format.
+7. Add users using the **Add user** link. I've made sure that the added Email and phone number are unique everytime. And the email is added in right format.
 
 8. Add contacts using the add contacts link. It will add a contact in the contacts collection and also connect the contacts collection to all the users. 
 
 9. In case you delete a contact, its reference will be removed from the users collection when you click on the "show user info" link, in the homepage.
 
-10. To validate that the contacts are connected to the user you can see on the "show user info" page that the "Contact count" changes everytime you add or remove a contact.(You can remove a contact by using db.contacts.remove({query}) method).
+10. To validate that the contacts are connected to the user you can see on the **"show user info"** page that the **"Contact count"** changes everytime you add or remove a contact.(You can remove a contact by using **db.contacts.remove({query})** method).
 
 11. In case you want to add a new user after adding the contact/contacts then after adding the new user/users, go to the homepage and click **"Refrence all existing contact...."** button. This will add a refrence of contacts to the new users too.
 
